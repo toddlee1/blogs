@@ -2,6 +2,7 @@
 layout: custom-post
 title:  "React+Vite 프로젝트, AWS S3와 CloudFront로 완벽 배포 가이드"
 date:   2024-05-22
+category: DevOps
 ---
 
 Vite 기반의 React 프로젝트를 빌드하여 AWS의 S3와 CloudFront를 통해 전 세계 사용자들에게 빠르고 안전하게 전달하는 과정을 A부터 Z까지 상세히 알아보겠습니다.

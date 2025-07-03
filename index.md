@@ -14,7 +14,12 @@ layout: default
 <ul class="post-list">
   {% for post in site.posts reversed %}
     <li>
-      <a href="{{ site.baseurl }}{{ post.url }}">{{ post.title }}</a>
+        <a href="{{ site.baseurl }}{{ post.url }}">
+            {{ post.title }}
+        </a>
+        {% if post.category %}
+            <span class="category-badge">{{ post.category }}</span>
+        {% endif %}
     </li>
   {% endfor %}
 </ul> 

@@ -95,6 +95,13 @@ a:hover {
     text-shadow: 0 0 15px #00ff00;
 }
 
+.post-meta {
+    font-size: 0.9em;
+    color: #00ff00;
+    margin-bottom: 20px;
+    text-shadow: 0 0 5px #00ff00;
+}
+
 /* Code blocks - even more terminal-like */
 pre {
     background-color: #001100;
@@ -167,6 +174,20 @@ code {
 
 .post-list a:hover {
     color: #00ff41;
+}
+
+/* Category badge styling */
+.category-badge {
+    display: inline-block;
+    padding: 3px 10px;
+    font-size: 0.8rem;
+    font-weight: bold;
+    color: #000;
+    background-color: #00ff41;
+    border-radius: 15px;
+    text-shadow: none;
+    margin-left: 15px;
+    vertical-align: middle;
 }
 
 /* Terminal-style horizontal rules */

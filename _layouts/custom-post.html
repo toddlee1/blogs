@@ -3,6 +3,14 @@ layout: default
 ---
 <article>
     <h1 class="post-title">{{ page.title }}</h1>
+    <p class="post-meta">
+        <time datetime="{{ page.date | date_to_xmlschema }}">{{ page.date | date: "%Y년 %m월 %d일" }}</time>
+        {% if page.category %}
+        <span class="post-category">
+            &bull; {{ page.category }}
+        </span>
+        {% endif %}
+    </p>
     {{ content }}
 </article>
 
